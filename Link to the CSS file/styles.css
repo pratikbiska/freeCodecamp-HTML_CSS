@@ -3,10 +3,17 @@
 }
 
 .logo-img {
+    margin-bottom: 20px;
     display: block;
-    width: 300px;  
+    width: 300px;
 }
 
 .search-input {
     width: 400px;
 }
+
+.buttons-button {
+    margin-top: 10px;
+}
+
+/* Centering elements in CSS. */ 
