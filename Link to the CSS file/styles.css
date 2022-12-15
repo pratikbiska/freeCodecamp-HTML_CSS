@@ -13,12 +13,23 @@
 .search-input {
     display: block;
     width: 400px;
+    line-height: 24px;              /*Some browsers do not respect css height. So, we opt to use line-height*/
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .buttons-button {
     margin-top: 10px;
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Centering elements in CSS. */ 
