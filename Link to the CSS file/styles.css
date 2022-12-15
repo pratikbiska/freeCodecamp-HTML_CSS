@@ -24,13 +24,17 @@
     padding-bottom: 5px;
 }
 
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .btn {
-    display: block;
     height: 35px;
-    background: #dfe1e5;               /*Google uses #f8f9fa but the contrast ratio is very low against background.*/
-    margin-left: auto;
-    margin-right: auto;   
+    background: #dfe1e5;               /*Google uses #f8f9fa but the contrast ratio is very low against background.*/  
     margin-top: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
     border: none;
     border-radius: 4px;
     font-size: 14px;
