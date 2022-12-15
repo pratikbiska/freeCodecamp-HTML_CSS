@@ -1,0 +1,22 @@
+.card {
+    color: #222222;
+    background: lightgray;
+    width: 300px;
+
+    /*margin - betn page and element */
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /*border - betn margin and padding || border and border radius */
+    border: 4px solid #4a5667;
+    border-radius: 20px;
+
+ 
+    /*padding - betn element and content */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;  
+}
+/*The box model*/
